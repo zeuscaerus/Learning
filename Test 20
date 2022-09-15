@@ -1,0 +1,2 @@
+a = list(map(int, input().split()))
+print(*sorted(a, key=lambda x: x%10))
